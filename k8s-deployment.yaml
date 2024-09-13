@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: hello-world-app
-        image: sampleacr12/hello-world-app
+        image: sampleacr12.azurecr.io/hello-world-app:latest
         ports:
         - containerPort: 80
 ---
