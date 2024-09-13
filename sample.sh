@@ -1,6 +1,8 @@
 #!/bin/bash
 set -e
 
+az upgrade
+
 az login
 
 # Define variables
